@@ -1,0 +1,165 @@
+/* color p #434455 */
+/* color h1 #FFFFFF */
+/* color h2/h3 #2E2F42; */
+/* color p and studio in footer #F4F4FD */
+/* color "web" and (btn in the hero) #4D5AE5; */
+/* background color filter btn, order in the hover #404BBF; */
+/* filter btn background: #F4F4FD; */
+/* filter btn-text color: #4D5AE5; */
+
+:root {
+  --color-text-fil-btn: #4d5ae5;
+  --hover: #404bbf;
+  --bg-fil-btn: #f4f4fd;
+  --main-color: #434455;
+  --primery-font: Roboto, Verdana, Tahoma, sans-serif;
+  --logo-font: Raleway;
+  --color-filt-accent: #FFFFFF;
+}
+
+body {
+  color: var(--main-color);
+  font-family: var(--primery-font);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/*reset*/
+.list {
+    list-style: none;
+}
+/**
+  |============================
+  | Header
+  |============================
+*/
+
+.logo-studio {
+ color: #2E2F42;
+}
+.active:hover,
+.active:focus {
+color: var(--hover);
+}
+.header-nav {
+    color: #2E2F42;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+.mail,
+.tel  {
+    color: var(--main-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    font-style: normal;
+}
+
+
+/**
+  |============================
+  | Main
+  |============================
+*/
+
+/*webstudio index*/
+.title-bg {
+    background-color: #2E2F42;
+}
+.title{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+
+}
+.order-btn {
+    background-color: #4d5ae5;
+    color: var(--color-filt-accent);
+    font-family: var(--primery-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.h-doing,
+.h-team {
+    color: #2E2F42;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+/*Portfolio*/
+
+.btn-active:hover,
+.btn-active:focus {
+    color: var(--color-filt-accent);
+    background-color: var(--hover);
+}
+.filt-btn {
+    color: var(--color-text-fil-btn);
+    background: var(--bg-fil-btn);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+}
+/*-------------------*/
+
+.category-link {
+    text-decoration: none;
+}
+.h-categ {
+    color: #2E2F42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.category {
+    color: var(--main-color);
+}
+
+/**
+  |============================
+  | Footer
+  |============================
+*/
+.footer {
+  background-color: #2e2f42;
+}
+.logo {
+  color: #4d5ae5;
+}
+.logo-studio-foot {
+  color: #f4f4fd;
+}
+.link {
+  font-family: var(--logo-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  text-decoration: none;
+}
+
+.text-footer {
+  color: #f4f4fd;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
