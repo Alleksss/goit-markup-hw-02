@@ -13,17 +13,18 @@
   --bg-fil-btn: #f4f4fd;
   --main-color: #434455;
   --primery-font: Roboto, Verdana, Tahoma, sans-serif;
-  --logo-font: Raleway;
+  --logo-font: Raleway, sans-serif;
   --color-filt-accent: #FFFFFF;
 }
 
 body {
   color: var(--main-color);
-  font-family: var(--primery-font);
+  font-family: Roboto, Verdana, Tahoma, sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  background-color: #FFFFFF;
 }
 
 /*reset*/
@@ -35,6 +36,10 @@ body {
   | Header
   |============================
 */
+
+.header-contact {
+ font-style: normal;
+}
 
 .logo-studio {
  color: #2E2F42;
@@ -85,10 +90,12 @@ color: var(--hover);
 .order-btn {
     background-color: #4d5ae5;
     color: var(--color-filt-accent);
-    font-family: var(--primery-font);
+    font-family: Roboto, Verdana, Tahoma, sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
 }
 .h-doing,
 .h-team {
@@ -149,10 +156,12 @@ color: var(--hover);
   color: #f4f4fd;
 }
 .link {
-  font-family: var(--logo-font);
+  font-family: Raleway, sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   text-decoration: none;
 }
 
