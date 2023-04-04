@@ -44,11 +44,11 @@ body {
 .logo-studio {
  color: #2E2F42;
 }
-.active:hover,
-.active:focus {
+.link:hover,
+.link:focus {
 color: var(--hover);
 }
-.active {
+.link {
     text-decoration: none;
 }
 .header-nav {
@@ -131,6 +131,7 @@ color: var(--hover);
 .filt-btn {
     color: var(--color-text-fil-btn);
     background: var(--bg-fil-btn);
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -138,6 +139,7 @@ color: var(--hover);
     align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
+    cursor: pointer
 }
 /*-------------------*/
 
@@ -169,7 +171,7 @@ color: var(--hover);
 .logo-studio-foot {
   color: #f4f4fd;
 }
-.link {
+.linkk {
   font-family: Raleway, sans-serif;
   font-weight: 800;
   font-size: 18px;
