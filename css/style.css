@@ -44,11 +44,11 @@ body {
 .logo-studio {
  color: #2E2F42;
 }
-.link:hover,
-.link:focus {
+.active:hover,
+.active:focus {
 color: var(--hover);
 }
-.link {
+.active {
     text-decoration: none;
 }
 .header-nav {
@@ -155,6 +155,9 @@ color: var(--hover);
 }
 .category {
     color: var(--main-color);
+}
+.link {
+  text-decoration: none;
 }
 
 /**
