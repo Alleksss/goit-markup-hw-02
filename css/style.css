@@ -15,6 +15,7 @@
   --primery-font: Roboto, sans-serif;
   --logo-font: Raleway, sans-serif;
   --color-filt-accent: #FFFFFF;
+  --color-h2-h3-texheader: #2E2F42;
 }
 
 body {
@@ -24,7 +25,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  background-color: #FFFFFF;
+  background-color: var(--color-filt-accent);
 }
 
 /*reset*/
@@ -42,7 +43,7 @@ body {
 }
 
 .logo-studio {
- color: #2E2F42;
+ color: var(--color-h2-h3-texheader);
 }
 .active:hover,
 .active:focus {
@@ -52,7 +53,7 @@ color: var(--hover);
     text-decoration: none;
 }
 .header-nav {
-    color: #2E2F42;
+    color: var(--color-h2-h3-texheader);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -61,7 +62,7 @@ color: var(--hover);
 }
 .contact {
     color: var(--main-color);
-    font-weight: 400;
+    /*font-weight: 400;*/
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -79,11 +80,11 @@ color: var(--hover);
 
 /*webstudio index*/
 .title-bg {
-    background-color: #2E2F42;
+    background-color: var(--color-h2-h3-texheader);
 }
 .title{
-    color: #FFFFFF;
-    font-weight: 700;
+    color: var(--color-filt-accent);
+    /*font-weight: 700;*/
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -91,7 +92,7 @@ color: var(--hover);
 
 }
 .order-btn {
-    background-color: #4d5ae5;
+    background-color: var(--color-text-fil-btn);
     color: var(--color-filt-accent);
     font-family: Roboto, sans-serif;
     font-weight: 500;
@@ -102,8 +103,8 @@ color: var(--hover);
 }
 .h-doing,
 .h-team {
-    color: #2E2F42;
-    font-weight: 700;
+    color: var(--color-h2-h3-texheader);
+    /*font-weight: 700;*/
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -111,11 +112,11 @@ color: var(--hover);
     text-transform: capitalize;
 }
 .team {
-    background-color: #F4F4FD;
+    background-color: var(--bg-fil-btn);
 }
 
 .list-team {
-    background-color: #FFFFFF;
+    background-color: var(--color-filt-accent);
 }
 .text-team {
    font-size: 16px;
@@ -146,7 +147,7 @@ color: var(--hover);
     text-decoration: none;
 }
 .h-categ {
-    color: #2E2F42;
+    color: var(--color-h2-h3-texheader);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -165,13 +166,13 @@ color: var(--hover);
   |============================
 */
 .footer {
-  background-color: #2e2f42;
+  background-color: var(--color-h2-h3-texheader);
 }
 .logo {
-  color: #4d5ae5;
+  color: var(--color-text-fil-btn);
 }
 .logo-studio-foot {
-  color: #f4f4fd;
+  color: var(--bg-fil-btn);
 }
 .linkk {
   font-family: Raleway, sans-serif;
@@ -184,8 +185,7 @@ color: var(--hover);
 }
 
 .text-footer {
-  color: #f4f4fd;
-  font-weight: 400;
+  color: var(--bg-fil-btn);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
